@@ -96,7 +96,10 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
                         // your code here
-                        if (position == 1) {
+                        if (position == 0){
+                            map.moveCamera(CameraUpdateFactory.newLatLngZoom(singapore,11));
+                        }
+                        else if (position == 1) {
                             map.moveCamera(CameraUpdateFactory.newLatLngZoom(serangoon,15));
                         }
                         else if (position == 2) {
