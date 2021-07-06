@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P08-LocatingAPlace</string>
+    <string-array name="Side">
+        <item>Select Side</item>
+        <item>North</item>
+        <item>Central</item>
+        <item>East</item>
+    </string-array>
+</resources>
